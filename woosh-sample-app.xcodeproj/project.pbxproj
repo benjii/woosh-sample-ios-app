@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5216737166157D1005940DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5216736166157D1005940DC /* CoreLocation.framework */; };
+		B5419C7C1659603500A91FCC /* CardData.m in Sources */ = {isa = PBXBuildFile; fileRef = B5419C7B1659603500A91FCC /* CardData.m */; };
+		B5CD850E165904E7007D8BB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD850D165904E7007D8BB4 /* UIKit.framework */; };
+		B5CD8510165904E7007D8BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD850F165904E7007D8BB4 /* Foundation.framework */; };
+		B5CD8512165904E7007D8BB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD8511165904E7007D8BB4 /* CoreGraphics.framework */; };
+		B5CD8518165904E7007D8BB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8516165904E7007D8BB4 /* InfoPlist.strings */; };
+		B5CD851A165904E7007D8BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD8519165904E7007D8BB4 /* main.m */; };
+		B5CD851E165904E7007D8BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD851D165904E7007D8BB4 /* AppDelegate.m */; };
+		B5CD8520165904E7007D8BB4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD851F165904E7007D8BB4 /* Default.png */; };
+		B5CD8522165904E7007D8BB4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8521165904E7007D8BB4 /* Default@2x.png */; };
+		B5CD8524165904E7007D8BB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8523165904E7007D8BB4 /* Default-568h@2x.png */; };
+		B5CD8527165904E7007D8BB4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8525165904E7007D8BB4 /* MainStoryboard_iPhone.storyboard */; };
+		B5CD852A165904E7007D8BB4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8528165904E7007D8BB4 /* MainStoryboard_iPad.storyboard */; };
+		B5CD852D165904E7007D8BB4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD852C165904E7007D8BB4 /* MainViewController.m */; };
+		B5CD8530165904E7007D8BB4 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD852F165904E7007D8BB4 /* FlipsideViewController.m */; };
+		B5CD8538165904E7007D8BB4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD8537165904E7007D8BB4 /* SenTestingKit.framework */; };
+		B5CD8539165904E7007D8BB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD850D165904E7007D8BB4 /* UIKit.framework */; };
+		B5CD853A165904E7007D8BB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD850F165904E7007D8BB4 /* Foundation.framework */; };
+		B5CD8542165904E7007D8BB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5CD8540165904E7007D8BB4 /* InfoPlist.strings */; };
+		B5CD8545165904E7007D8BB4 /* woosh_sample_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD8544165904E7007D8BB4 /* woosh_sample_appTests.m */; };
+		B5CD855016590BB1007D8BB4 /* Woosh.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CD854F16590BB1007D8BB4 /* Woosh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5CD853B165904E7007D8BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5CD8500165904E7007D8BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5CD8508165904E7007D8BB4;
+			remoteInfo = "woosh-sample-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5216736166157D1005940DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B5419C7A1659603500A91FCC /* CardData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardData.h; sourceTree = "<group>"; };
+		B5419C7B1659603500A91FCC /* CardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardData.m; sourceTree = "<group>"; };
+		B5CD8509165904E7007D8BB4 /* woosh-sample-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "woosh-sample-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD850D165904E7007D8BB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5CD850F165904E7007D8BB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5CD8511165904E7007D8BB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5CD8515165904E7007D8BB4 /* woosh-sample-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "woosh-sample-app-Info.plist"; sourceTree = "<group>"; };
+		B5CD8517165904E7007D8BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5CD8519165904E7007D8BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5CD851B165904E7007D8BB4 /* woosh-sample-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "woosh-sample-app-Prefix.pch"; sourceTree = "<group>"; };
+		B5CD851C165904E7007D8BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5CD851D165904E7007D8BB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5CD851F165904E7007D8BB4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B5CD8521165904E7007D8BB4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B5CD8523165904E7007D8BB4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B5CD8526165904E7007D8BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B5CD8529165904E7007D8BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B5CD852B165904E7007D8BB4 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B5CD852C165904E7007D8BB4 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B5CD852E165904E7007D8BB4 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B5CD852F165904E7007D8BB4 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B5CD8536165904E7007D8BB4 /* woosh-sample-appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "woosh-sample-appTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5CD8537165904E7007D8BB4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B5CD853F165904E7007D8BB4 /* woosh-sample-appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "woosh-sample-appTests-Info.plist"; sourceTree = "<group>"; };
+		B5CD8541165904E7007D8BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5CD8543165904E7007D8BB4 /* woosh_sample_appTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = woosh_sample_appTests.h; sourceTree = "<group>"; };
+		B5CD8544165904E7007D8BB4 /* woosh_sample_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = woosh_sample_appTests.m; sourceTree = "<group>"; };
+		B5CD854E16590BB1007D8BB4 /* Woosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woosh.h; sourceTree = "<group>"; };
+		B5CD854F16590BB1007D8BB4 /* Woosh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woosh.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5CD8506165904E7007D8BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5216737166157D1005940DC /* CoreLocation.framework in Frameworks */,
+				B5CD850E165904E7007D8BB4 /* UIKit.framework in Frameworks */,
+				B5CD8510165904E7007D8BB4 /* Foundation.framework in Frameworks */,
+				B5CD8512165904E7007D8BB4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD8532165904E7007D8BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD8538165904E7007D8BB4 /* SenTestingKit.framework in Frameworks */,
+				B5CD8539165904E7007D8BB4 /* UIKit.framework in Frameworks */,
+				B5CD853A165904E7007D8BB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5CD84FE165904E7007D8BB4 = {
+			isa = PBXGroup;
+			children = (
+				B5CD8513165904E7007D8BB4 /* woosh-sample-app */,
+				B5CD853D165904E7007D8BB4 /* woosh-sample-appTests */,
+				B5CD850C165904E7007D8BB4 /* Frameworks */,
+				B5CD850A165904E7007D8BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5CD850A165904E7007D8BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD8509165904E7007D8BB4 /* woosh-sample-app.app */,
+				B5CD8536165904E7007D8BB4 /* woosh-sample-appTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5CD850C165904E7007D8BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5216736166157D1005940DC /* CoreLocation.framework */,
+				B5CD850D165904E7007D8BB4 /* UIKit.framework */,
+				B5CD850F165904E7007D8BB4 /* Foundation.framework */,
+				B5CD8511165904E7007D8BB4 /* CoreGraphics.framework */,
+				B5CD8537165904E7007D8BB4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5CD8513165904E7007D8BB4 /* woosh-sample-app */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD8556165917B3007D8BB4 /* Domain Entities */,
+				B5CD855116590BB5007D8BB4 /* Common */,
+				B5CD851C165904E7007D8BB4 /* AppDelegate.h */,
+				B5CD851D165904E7007D8BB4 /* AppDelegate.m */,
+				B5CD8525165904E7007D8BB4 /* MainStoryboard_iPhone.storyboard */,
+				B5CD8528165904E7007D8BB4 /* MainStoryboard_iPad.storyboard */,
+				B5CD852B165904E7007D8BB4 /* MainViewController.h */,
+				B5CD852C165904E7007D8BB4 /* MainViewController.m */,
+				B5CD852E165904E7007D8BB4 /* FlipsideViewController.h */,
+				B5CD852F165904E7007D8BB4 /* FlipsideViewController.m */,
+				B5CD8514165904E7007D8BB4 /* Supporting Files */,
+			);
+			path = "woosh-sample-app";
+			sourceTree = "<group>";
+		};
+		B5CD8514165904E7007D8BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD8515165904E7007D8BB4 /* woosh-sample-app-Info.plist */,
+				B5CD8516165904E7007D8BB4 /* InfoPlist.strings */,
+				B5CD8519165904E7007D8BB4 /* main.m */,
+				B5CD851B165904E7007D8BB4 /* woosh-sample-app-Prefix.pch */,
+				B5CD851F165904E7007D8BB4 /* Default.png */,
+				B5CD8521165904E7007D8BB4 /* Default@2x.png */,
+				B5CD8523165904E7007D8BB4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5CD853D165904E7007D8BB4 /* woosh-sample-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD8543165904E7007D8BB4 /* woosh_sample_appTests.h */,
+				B5CD8544165904E7007D8BB4 /* woosh_sample_appTests.m */,
+				B5CD853E165904E7007D8BB4 /* Supporting Files */,
+			);
+			path = "woosh-sample-appTests";
+			sourceTree = "<group>";
+		};
+		B5CD853E165904E7007D8BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD853F165904E7007D8BB4 /* woosh-sample-appTests-Info.plist */,
+				B5CD8540165904E7007D8BB4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5CD855116590BB5007D8BB4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD854E16590BB1007D8BB4 /* Woosh.h */,
+				B5CD854F16590BB1007D8BB4 /* Woosh.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B5CD8556165917B3007D8BB4 /* Domain Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B5419C7A1659603500A91FCC /* CardData.h */,
+				B5419C7B1659603500A91FCC /* CardData.m */,
+			);
+			name = "Domain Entities";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5CD8508165904E7007D8BB4 /* woosh-sample-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD8548165904E7007D8BB4 /* Build configuration list for PBXNativeTarget "woosh-sample-app" */;
+			buildPhases = (
+				B5CD8505165904E7007D8BB4 /* Sources */,
+				B5CD8506165904E7007D8BB4 /* Frameworks */,
+				B5CD8507165904E7007D8BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "woosh-sample-app";
+			productName = "woosh-sample-app";
+			productReference = B5CD8509165904E7007D8BB4 /* woosh-sample-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5CD8535165904E7007D8BB4 /* woosh-sample-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5CD854B165904E7007D8BB4 /* Build configuration list for PBXNativeTarget "woosh-sample-appTests" */;
+			buildPhases = (
+				B5CD8531165904E7007D8BB4 /* Sources */,
+				B5CD8532165904E7007D8BB4 /* Frameworks */,
+				B5CD8533165904E7007D8BB4 /* Resources */,
+				B5CD8534165904E7007D8BB4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5CD853C165904E7007D8BB4 /* PBXTargetDependency */,
+			);
+			name = "woosh-sample-appTests";
+			productName = "woosh-sample-appTests";
+			productReference = B5CD8536165904E7007D8BB4 /* woosh-sample-appTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5CD8500165904E7007D8BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Luminos;
+			};
+			buildConfigurationList = B5CD8503165904E7007D8BB4 /* Build configuration list for PBXProject "woosh-sample-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5CD84FE165904E7007D8BB4;
+			productRefGroup = B5CD850A165904E7007D8BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5CD8508165904E7007D8BB4 /* woosh-sample-app */,
+				B5CD8535165904E7007D8BB4 /* woosh-sample-appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5CD8507165904E7007D8BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD8518165904E7007D8BB4 /* InfoPlist.strings in Resources */,
+				B5CD8520165904E7007D8BB4 /* Default.png in Resources */,
+				B5CD8522165904E7007D8BB4 /* Default@2x.png in Resources */,
+				B5CD8524165904E7007D8BB4 /* Default-568h@2x.png in Resources */,
+				B5CD8527165904E7007D8BB4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B5CD852A165904E7007D8BB4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD8533165904E7007D8BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD8542165904E7007D8BB4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5CD8534165904E7007D8BB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5CD8505165904E7007D8BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD851A165904E7007D8BB4 /* main.m in Sources */,
+				B5CD851E165904E7007D8BB4 /* AppDelegate.m in Sources */,
+				B5CD852D165904E7007D8BB4 /* MainViewController.m in Sources */,
+				B5CD8530165904E7007D8BB4 /* FlipsideViewController.m in Sources */,
+				B5CD855016590BB1007D8BB4 /* Woosh.m in Sources */,
+				B5419C7C1659603500A91FCC /* CardData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5CD8531165904E7007D8BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CD8545165904E7007D8BB4 /* woosh_sample_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5CD853C165904E7007D8BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5CD8508165904E7007D8BB4 /* woosh-sample-app */;
+			targetProxy = B5CD853B165904E7007D8BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5CD8516165904E7007D8BB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CD8517165904E7007D8BB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5CD8525165904E7007D8BB4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CD8526165904E7007D8BB4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B5CD8528165904E7007D8BB4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CD8529165904E7007D8BB4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B5CD8540165904E7007D8BB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5CD8541165904E7007D8BB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5CD8546165904E7007D8BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5CD8547165904E7007D8BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5CD8549165904E7007D8BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woosh-sample-app/woosh-sample-app-Prefix.pch";
+				INFOPLIST_FILE = "woosh-sample-app/woosh-sample-app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5CD854A165904E7007D8BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woosh-sample-app/woosh-sample-app-Prefix.pch";
+				INFOPLIST_FILE = "woosh-sample-app/woosh-sample-app-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5CD854C165904E7007D8BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/woosh-sample-app.app/woosh-sample-app";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woosh-sample-app/woosh-sample-app-Prefix.pch";
+				INFOPLIST_FILE = "woosh-sample-appTests/woosh-sample-appTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B5CD854D165904E7007D8BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/woosh-sample-app.app/woosh-sample-app";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woosh-sample-app/woosh-sample-app-Prefix.pch";
+				INFOPLIST_FILE = "woosh-sample-appTests/woosh-sample-appTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5CD8503165904E7007D8BB4 /* Build configuration list for PBXProject "woosh-sample-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD8546165904E7007D8BB4 /* Debug */,
+				B5CD8547165904E7007D8BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD8548165904E7007D8BB4 /* Build configuration list for PBXNativeTarget "woosh-sample-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD8549165904E7007D8BB4 /* Debug */,
+				B5CD854A165904E7007D8BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5CD854B165904E7007D8BB4 /* Build configuration list for PBXNativeTarget "woosh-sample-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CD854C165904E7007D8BB4 /* Debug */,
+				B5CD854D165904E7007D8BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5CD8500165904E7007D8BB4 /* Project object */;
+}
